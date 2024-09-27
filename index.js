@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello, world! Current tioioiime : ' + new Date().toLocaleString());
+    res.send('workingCurrent tioioiime : ' + new Date().toLocaleString());
 });
 
 app.listen(port, () => {
