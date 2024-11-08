@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Build and Deploy') {
             steps {
-                dir("${env.WORKSPACE_DIR}") {
+                dir("${env.CUSTOM_WORKSPACE}") {
                 }
             }
         }
