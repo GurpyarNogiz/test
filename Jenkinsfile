@@ -1,4 +1,5 @@
 pipeline {
+    
     agent any
     environment {
         HOME = '/var/lib/jenkins'
